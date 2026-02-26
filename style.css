@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 30px;
+    gap: 30px;
+    margin: 10px;
+    border-radius: 5%;
+}
+img {
+    border: 2px solid gray;
+    border-radius: 5%;
+}
+button{
+    display: inline;
+}
+#reset{
+    margin-top: auto;
+}
