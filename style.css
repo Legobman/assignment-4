@@ -24,3 +24,9 @@ button{
 #reset{
     margin-top: auto;
 }
+.player{
+    border: 2px solid red;
+}
+.cpu{
+    border: 2px solid blue;
+}
