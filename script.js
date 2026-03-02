@@ -15,6 +15,7 @@ scissors.addEventListener("click", play);
 const reset = document.querySelector("#reset");
 reset.addEventListener("click", treset);
 
+/** @function play */
 // function to play a game of rock, paper, scissors.
 function play(event) {
     // select player's choice
@@ -64,6 +65,7 @@ function play(event) {
     again.addEventListener("click", pagain);
 }
 
+/** @function pagain */
 // wipe the player and computer choices to allow user to play again
 function pagain(event){
     const choice = document.querySelector(".player");
@@ -77,6 +79,7 @@ function pagain(event){
     event.removeEventListener("click", pagain);
 }
 
+/** @function treset */
 // wipe the total results
 function treset(){
     wins = 0;
